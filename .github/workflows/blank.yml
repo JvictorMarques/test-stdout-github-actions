@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo: "::debug:: Mensagem de debug"
-          echo: "::notice:: Mensagem de notice"
-          echo: "::warning:: Mensagem de warning"
-          echo: "::error:: Mensagem de error"
+          echo "::debug:: Mensagem de debug"
+          echo "::notice:: Mensagem de notice"
+          echo "::warning:: Mensagem de warning"
+          echo "::error:: Mensagem de error"
