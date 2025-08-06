@@ -1,0 +1,13 @@
+name: Testando Logs
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo: "::debug:: Mensagem de debug"
+          echo: "::notice:: Mensagem de notice"
+          echo: "::warning:: Mensagem de warning"
+          echo: "::error:: Mensagem de error"
