@@ -6,7 +6,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: |
+      - name: Mostrando outputs
+        run: |
           echo "::debug:: Mensagem de debug"
           echo "::notice:: Mensagem de notice"
           echo "::warning:: Mensagem de warning"
